@@ -1,0 +1,284 @@
+
+.main-heading
+   {
+    font-size:2vw;
+    font-style: 'Montserrat Alternates' ;
+    margin-top: 2%;
+   margin-left: 10%;
+    margin-right: 30%;
+    color: #f50c69;
+    opacity: 5;
+  
+   
+   }
+.exp-div{
+  
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  opacity: 0.4;
+  z-index: 25;
+  transition: transform .20000000s;
+}
+.exp-div:hover{
+  
+  opacity: 0.8;
+  -ms-transform: scale(10000000); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.001); 
+}
+.after{
+  background-color: black;
+  opacity: 2;
+}
+
+body
+   {
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+    font-family: 'Montserrat';
+    font-size: 15px;
+   }
+
+.main-div
+  {
+   
+   height:80vh;
+   width:100%;
+   background-image: url("/images/1/chapter-1/1.jpg");
+  background-size:cover;
+  background-position: center ;
+  background-repeat: no-repeat;
+  transition: 5s;
+
+        animation-name: animate ;
+        animation-direction: alternate-reverse;
+        animation-duration: 30s;
+        animation-fill-mode: forwards ;
+        animation-iteration-count: infinite;
+        animation-play-state: running ;
+        animation-timing-function:ease-in-out;
+
+  }
+  
+  @keyframes animate{
+
+      0%{
+        background-image:url("/images/1/chapter-1/1.jpg") ;
+      }
+      20%{
+        background-image:url("/images/1/chapter-2/1.jpg") ;
+      }
+      40%{
+        background-image:url("/images/1/chapter-3/1.jpg") ;
+      }
+      60%{
+        background-image:url("/images/2/chapter-1/1.jpg") ;
+      }
+      80%{
+        background-image:url("/images/2/chapter-2/1.jpg") ;
+      }
+      100%{
+        background-image:url("/images/2/chapter-3/1.jpg") ;
+      }
+
+
+  }
+  
+
+  .nav-item
+  { 
+      color: white;
+      font-size: 1.5rem;
+  }
+  .nav-img{
+    height: 10%;
+    width: 10%;
+    padding-left: 0%;
+    
+    
+  }
+  .btn{
+    background-color: black;
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    border-color: black;
+  }
+  .nav-link{
+    color: white;
+   
+  }
+
+.paragraph
+  {   
+    font-size:1.5vw;
+    width: 80%;
+    margin-left: 10%;
+    align-items: center;
+    color: #f9fcfb;
+    padding-bottom: 10%;
+   }
+   .ravi{
+     height: 30%;
+     width: 30%;
+     border-radius: 10%;
+   }
+
+
+   .contact-div
+   {    
+       margin-top: 5%;      
+       height: 500px;
+       width: 100%;
+       margin-left: 35%;
+       
+   }
+
+
+   .form-control{
+       width:30%;
+       border-style: solid;
+       border-width: 3px;
+       border-radius: 5px;
+       color: #4f4f4f;      
+                }
+
+   h2{
+    font-size:2vw;
+     }
+     .home-img{
+       padding-left: 2%;
+       padding-top:2%;
+       padding-bottom:1% ;
+     }
+  
+   input{
+    box-shadow: 10px 10px 1px grey;
+    z-index: 10;
+   }
+  
+   .btn0{
+   
+    z-index: 10;
+    margin-top: 2%;
+   }
+
+
+      /* comic pages */
+
+      .comic-div{
+        width: 60%;
+         height: auto;
+      }
+
+
+.book-body{
+  background-color: black;
+}
+
+
+   /* comics.ejs*/
+   .comic-body{
+     margin-top: 3%;
+     background-color: rgb(0, 0, 0);
+     opacity: 0.9;
+   }
+
+   .comics-navbar{
+    height: 500px;
+     width: 15%;
+     padding-right: 0.3%;
+     box-shadow: 5px 5px 15px rgb(29, 28, 28);
+     color: black;
+    position: fixed;
+     margin-left: 0.3%;
+    
+   }
+   .comics-nav-buttons{
+    border-width: 2px;
+    border-color: rgb(221, 211, 211);
+    border-style: solid;
+    border-radius: 2px;
+  
+    opacity: 0.4;
+     z-index: 20;
+     border-radius: 3px;
+     
+    
+     margin-bottom: 3%;
+     transition: transform .2s;
+     
+   }
+   
+   .after-navdiv{
+    height: 1000px;
+     width: 100%;
+     
+      margin-top: 0.5%;
+     z-index: 20;
+     border-radius: 3px;
+   }
+   .img-div{
+    z-index: 20;
+     height: 10%;
+     width: 10%;
+     border-radius: 2%;
+    border-width: 0.5px;
+    border-color: rgb(83, 79, 79);
+    border-style: solid;
+     margin-left: 1%;
+     margin-bottom: 5%;
+     transition: transform .2s;
+     color: white;
+
+    
+   }
+   .img-div:hover{
+    z-index: 21;
+    background-color: #ffffff;
+    color: black;
+    -ms-transform: scale(20); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+  .comic-img{
+    margin-top: 7%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
